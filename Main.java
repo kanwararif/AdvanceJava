@@ -25,7 +25,7 @@ public class Main {
 			System.out.println("Press a to add product");
 			System.out.println("press u to update product");
 			System.out.println("Press s to search for product");
-			System.out.println("Press q to quit ");
+			System.out.println("Press Q to quit ");
 			System.out.println("=======================\n");
 			
 			//get user selection
@@ -44,13 +44,14 @@ public class Main {
 			}
 			else if (input == 's' || input == 's') {
 				
-			}else if (input == 'q' || input == 'Q') {
+			}else if (input == 'Q' || input == 'Q') {
 				System.out.println("Thank you for using online inventory system");
 			}
 			logging .info("Click Successfull");
+
+			//changing for test
 			
-			
-		}while(input != 'q');
+		}while(input != 'Q');
 		logging .info("Click Successfull");
 		
 		logging.addHandler(new ConsoleHandler());
